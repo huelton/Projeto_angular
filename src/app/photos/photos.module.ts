@@ -1,4 +1,3 @@
-import { ErrorsModule } from './../errors/errors.module';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
@@ -14,8 +13,7 @@ import { PhotoFormComponent } from './photo-form/photo-form.component';
                     PhotoFormComponent
                 ],
     imports: [ HttpClientModule,
-               CommonModule,
-               ErrorsModule
+               CommonModule
              ]
 })
 export class PhotosModule {
